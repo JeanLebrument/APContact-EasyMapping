@@ -23,4 +23,8 @@ DerivedData
 # you should judge for yourself, the pros and cons are mentioned at:
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
 #
+<<<<<<< HEAD
 #Pods/
+=======
+#Pods/
+>>>>>>> 0675c7e8a9fd16304b1963723735d9952c0c8b24
