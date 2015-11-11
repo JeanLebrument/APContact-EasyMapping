@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B38471EEBA36BFA42FBCAC6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E43415D029863A716F53030 /* libPods.a */; };
+		4D22F0051BEFF020006A9ABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22F0041BEFF020006A9ABC /* AppDelegate.m */; };
+		4D22F0071BEFF2E1006A9ABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22F0061BEFF2E1006A9ABC /* main.m */; };
+		4DD9090A1BEE2D9C000F4603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD909081BEE2D9C000F4603 /* Main.storyboard */; };
+		4DD9090C1BEE2D9C000F4603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9090B1BEE2D9C000F4603 /* Assets.xcassets */; };
+		4DD9090F1BEE2D9C000F4603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9090D1BEE2D9C000F4603 /* LaunchScreen.storyboard */; };
+		4DD9091A1BEE2D9C000F4603 /* APContact_EasyMappingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD909191BEE2D9C000F4603 /* APContact_EasyMappingDemoTests.swift */; };
+		4DD909A61BEE2E93000F4603 /* APContact+EasyMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD909A51BEE2E93000F4603 /* APContact+EasyMapping.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DD909161BEE2D9C000F4603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD908F91BEE2D9C000F4603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD909001BEE2D9C000F4603;
+			remoteInfo = "APContact+EasyMappingDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D22F0031BEFF020006A9ABC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D22F0041BEFF020006A9ABC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D22F0061BEFF2E1006A9ABC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DD909011BEE2D9C000F4603 /* APContact+EasyMappingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APContact+EasyMappingDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD909091BEE2D9C000F4603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DD9090B1BEE2D9C000F4603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DD9090E1BEE2D9C000F4603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DD909101BEE2D9C000F4603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD909151BEE2D9C000F4603 /* APContact+EasyMappingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APContact+EasyMappingDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD909191BEE2D9C000F4603 /* APContact_EasyMappingDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APContact_EasyMappingDemoTests.swift; sourceTree = "<group>"; };
+		4DD9091B1BEE2D9C000F4603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD909A41BEE2E93000F4603 /* APContact+EasyMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APContact+EasyMapping.h"; sourceTree = "<group>"; };
+		4DD909A51BEE2E93000F4603 /* APContact+EasyMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "APContact+EasyMapping.m"; sourceTree = "<group>"; };
+		4E43415D029863A716F53030 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A38817C8D140BED61463115 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CFF92AD2D3777D10D1FBC6AB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD908FE1BEE2D9C000F4603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B38471EEBA36BFA42FBCAC6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD909121BEE2D9C000F4603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2627E19A87F41BDA6A58E8A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E43415D029863A716F53030 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DD908F81BEE2D9C000F4603 = {
+			isa = PBXGroup;
+			children = (
+				4DD909031BEE2D9C000F4603 /* APContact+EasyMappingDemo */,
+				4DD909181BEE2D9C000F4603 /* APContact+EasyMappingDemoTests */,
+				4DD909021BEE2D9C000F4603 /* Products */,
+				BD0C92CCAD9B22CC6C4425EC /* Pods */,
+				2627E19A87F41BDA6A58E8A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD909021BEE2D9C000F4603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD909011BEE2D9C000F4603 /* APContact+EasyMappingDemo.app */,
+				4DD909151BEE2D9C000F4603 /* APContact+EasyMappingDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD909031BEE2D9C000F4603 /* APContact+EasyMappingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4DD909081BEE2D9C000F4603 /* Main.storyboard */,
+				4DD9090B1BEE2D9C000F4603 /* Assets.xcassets */,
+				4DD9090D1BEE2D9C000F4603 /* LaunchScreen.storyboard */,
+				4DD909101BEE2D9C000F4603 /* Info.plist */,
+				4DD909A41BEE2E93000F4603 /* APContact+EasyMapping.h */,
+				4DD909A51BEE2E93000F4603 /* APContact+EasyMapping.m */,
+				4D22F0031BEFF020006A9ABC /* AppDelegate.h */,
+				4D22F0041BEFF020006A9ABC /* AppDelegate.m */,
+				4D22F0061BEFF2E1006A9ABC /* main.m */,
+			);
+			path = "APContact+EasyMappingDemo";
+			sourceTree = "<group>";
+		};
+		4DD909181BEE2D9C000F4603 /* APContact+EasyMappingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD909191BEE2D9C000F4603 /* APContact_EasyMappingDemoTests.swift */,
+				4DD9091B1BEE2D9C000F4603 /* Info.plist */,
+			);
+			path = "APContact+EasyMappingDemoTests";
+			sourceTree = "<group>";
+		};
+		BD0C92CCAD9B22CC6C4425EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A38817C8D140BED61463115 /* Pods.debug.xcconfig */,
+				CFF92AD2D3777D10D1FBC6AB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DD909001BEE2D9C000F4603 /* APContact+EasyMappingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD9091E1BEE2D9C000F4603 /* Build configuration list for PBXNativeTarget "APContact+EasyMappingDemo" */;
+			buildPhases = (
+				C3C272B01F2F8CF9D3C1344E /* Check Pods Manifest.lock */,
+				4DD908FD1BEE2D9C000F4603 /* Sources */,
+				4DD908FE1BEE2D9C000F4603 /* Frameworks */,
+				4DD908FF1BEE2D9C000F4603 /* Resources */,
+				C93675E96649AF288FFBE465 /* Embed Pods Frameworks */,
+				D09369F5E41D2CCF4F3FC545 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APContact+EasyMappingDemo";
+			productName = "APContact+EasyMappingDemo";
+			productReference = 4DD909011BEE2D9C000F4603 /* APContact+EasyMappingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DD909141BEE2D9C000F4603 /* APContact+EasyMappingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD909211BEE2D9C000F4603 /* Build configuration list for PBXNativeTarget "APContact+EasyMappingDemoTests" */;
+			buildPhases = (
+				4DD909111BEE2D9C000F4603 /* Sources */,
+				4DD909121BEE2D9C000F4603 /* Frameworks */,
+				4DD909131BEE2D9C000F4603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD909171BEE2D9C000F4603 /* PBXTargetDependency */,
+			);
+			name = "APContact+EasyMappingDemoTests";
+			productName = "APContact+EasyMappingDemoTests";
+			productReference = 4DD909151BEE2D9C000F4603 /* APContact+EasyMappingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD908F91BEE2D9C000F4603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jean Lebrument";
+				TargetAttributes = {
+					4DD909001BEE2D9C000F4603 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4DD909141BEE2D9C000F4603 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4DD909001BEE2D9C000F4603;
+					};
+				};
+			};
+			buildConfigurationList = 4DD908FC1BEE2D9C000F4603 /* Build configuration list for PBXProject "APContact+EasyMappingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DD908F81BEE2D9C000F4603;
+			productRefGroup = 4DD909021BEE2D9C000F4603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD909001BEE2D9C000F4603 /* APContact+EasyMappingDemo */,
+				4DD909141BEE2D9C000F4603 /* APContact+EasyMappingDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DD908FF1BEE2D9C000F4603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD9090F1BEE2D9C000F4603 /* LaunchScreen.storyboard in Resources */,
+				4DD9090C1BEE2D9C000F4603 /* Assets.xcassets in Resources */,
+				4DD9090A1BEE2D9C000F4603 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD909131BEE2D9C000F4603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3C272B01F2F8CF9D3C1344E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C93675E96649AF288FFBE465 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09369F5E41D2CCF4F3FC545 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD908FD1BEE2D9C000F4603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D22F0051BEFF020006A9ABC /* AppDelegate.m in Sources */,
+				4D22F0071BEFF2E1006A9ABC /* main.m in Sources */,
+				4DD909A61BEE2E93000F4603 /* APContact+EasyMapping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD909111BEE2D9C000F4603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD9091A1BEE2D9C000F4603 /* APContact_EasyMappingDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DD909171BEE2D9C000F4603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD909001BEE2D9C000F4603 /* APContact+EasyMappingDemo */;
+			targetProxy = 4DD909161BEE2D9C000F4603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DD909081BEE2D9C000F4603 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD909091BEE2D9C000F4603 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DD9090D1BEE2D9C000F4603 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD9090E1BEE2D9C000F4603 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DD9091C1BEE2D9C000F4603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DD9091D1BEE2D9C000F4603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DD9091F1BEE2D9C000F4603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A38817C8D140BED61463115 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "APContact+EasyMappingDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JeanLebrument.APContact-EasyMappingDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "APContactEasyMappingDemo-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		4DD909201BEE2D9C000F4603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF92AD2D3777D10D1FBC6AB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "APContact+EasyMappingDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JeanLebrument.APContact-EasyMappingDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "APContactEasyMappingDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		4DD909221BEE2D9C000F4603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "APContact+EasyMappingDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JeanLebrument.APContact-EasyMappingDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APContact+EasyMappingDemo.app/APContact+EasyMappingDemo";
+			};
+			name = Debug;
+		};
+		4DD909231BEE2D9C000F4603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "APContact+EasyMappingDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JeanLebrument.APContact-EasyMappingDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APContact+EasyMappingDemo.app/APContact+EasyMappingDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD908FC1BEE2D9C000F4603 /* Build configuration list for PBXProject "APContact+EasyMappingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD9091C1BEE2D9C000F4603 /* Debug */,
+				4DD9091D1BEE2D9C000F4603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD9091E1BEE2D9C000F4603 /* Build configuration list for PBXNativeTarget "APContact+EasyMappingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD9091F1BEE2D9C000F4603 /* Debug */,
+				4DD909201BEE2D9C000F4603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD909211BEE2D9C000F4603 /* Build configuration list for PBXNativeTarget "APContact+EasyMappingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD909221BEE2D9C000F4603 /* Debug */,
+				4DD909231BEE2D9C000F4603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DD908F91BEE2D9C000F4603 /* Project object */;
+}

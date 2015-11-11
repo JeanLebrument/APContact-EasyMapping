@@ -1,0 +1,17 @@
+PODS:
+  - APAddressBook (0.2.1):
+    - APAddressBook/Core (= 0.2.1)
+  - APAddressBook/Core (0.2.1)
+  - EasyMapping (0.15.3):
+    - EasyMapping/Core (= 0.15.3)
+  - EasyMapping/Core (0.15.3)
+
+DEPENDENCIES:
+  - APAddressBook
+  - EasyMapping
+
+SPEC CHECKSUMS:
+  APAddressBook: 90c0fb07579a47e10ef1a2344e23cfd35f388bec
+  EasyMapping: 5baf5a9a814538fdac4859cf56270ae761dd904a
+
+COCOAPODS: 0.39.0
