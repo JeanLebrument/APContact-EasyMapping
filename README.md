@@ -1,4 +1,4 @@
-# APContact-EasyMapping
+# APContact+EasyMapping
 Category to easily map APContact model with EasyMapping
 
 # Installation
