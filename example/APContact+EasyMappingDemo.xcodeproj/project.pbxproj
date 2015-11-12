@@ -10,11 +10,11 @@
 		3B38471EEBA36BFA42FBCAC6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E43415D029863A716F53030 /* libPods.a */; };
 		4D22F0051BEFF020006A9ABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22F0041BEFF020006A9ABC /* AppDelegate.m */; };
 		4D22F0071BEFF2E1006A9ABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22F0061BEFF2E1006A9ABC /* main.m */; };
+		4DB4AD951BF4D2A500582736 /* APContact+EasyMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4AD941BF4D2A500582736 /* APContact+EasyMapping.m */; };
 		4DD9090A1BEE2D9C000F4603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD909081BEE2D9C000F4603 /* Main.storyboard */; };
 		4DD9090C1BEE2D9C000F4603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9090B1BEE2D9C000F4603 /* Assets.xcassets */; };
 		4DD9090F1BEE2D9C000F4603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD9090D1BEE2D9C000F4603 /* LaunchScreen.storyboard */; };
 		4DD9091A1BEE2D9C000F4603 /* APContact_EasyMappingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD909191BEE2D9C000F4603 /* APContact_EasyMappingDemoTests.swift */; };
-		4DD909A61BEE2E93000F4603 /* APContact+EasyMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD909A51BEE2E93000F4603 /* APContact+EasyMapping.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +31,8 @@
 		4D22F0031BEFF020006A9ABC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D22F0041BEFF020006A9ABC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4D22F0061BEFF2E1006A9ABC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DB4AD931BF4D2A500582736 /* APContact+EasyMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "APContact+EasyMapping.h"; path = "../../Sources/APContact+EasyMapping.h"; sourceTree = "<group>"; };
+		4DB4AD941BF4D2A500582736 /* APContact+EasyMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "APContact+EasyMapping.m"; path = "../../Sources/APContact+EasyMapping.m"; sourceTree = "<group>"; };
 		4DD909011BEE2D9C000F4603 /* APContact+EasyMappingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APContact+EasyMappingDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD909091BEE2D9C000F4603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DD9090B1BEE2D9C000F4603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,8 +41,6 @@
 		4DD909151BEE2D9C000F4603 /* APContact+EasyMappingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APContact+EasyMappingDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD909191BEE2D9C000F4603 /* APContact_EasyMappingDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APContact_EasyMappingDemoTests.swift; sourceTree = "<group>"; };
 		4DD9091B1BEE2D9C000F4603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DD909A41BEE2E93000F4603 /* APContact+EasyMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APContact+EasyMapping.h"; sourceTree = "<group>"; };
-		4DD909A51BEE2E93000F4603 /* APContact+EasyMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "APContact+EasyMapping.m"; sourceTree = "<group>"; };
 		4E43415D029863A716F53030 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A38817C8D140BED61463115 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CFF92AD2D3777D10D1FBC6AB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,12 +96,12 @@
 		4DD909031BEE2D9C000F4603 /* APContact+EasyMappingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4DB4AD931BF4D2A500582736 /* APContact+EasyMapping.h */,
+				4DB4AD941BF4D2A500582736 /* APContact+EasyMapping.m */,
 				4DD909081BEE2D9C000F4603 /* Main.storyboard */,
 				4DD9090B1BEE2D9C000F4603 /* Assets.xcassets */,
 				4DD9090D1BEE2D9C000F4603 /* LaunchScreen.storyboard */,
 				4DD909101BEE2D9C000F4603 /* Info.plist */,
-				4DD909A41BEE2E93000F4603 /* APContact+EasyMapping.h */,
-				4DD909A51BEE2E93000F4603 /* APContact+EasyMapping.m */,
 				4D22F0031BEFF020006A9ABC /* AppDelegate.h */,
 				4D22F0041BEFF020006A9ABC /* AppDelegate.m */,
 				4D22F0061BEFF2E1006A9ABC /* main.m */,
@@ -281,7 +281,7 @@
 			files = (
 				4D22F0051BEFF020006A9ABC /* AppDelegate.m in Sources */,
 				4D22F0071BEFF2E1006A9ABC /* main.m in Sources */,
-				4DD909A61BEE2E93000F4603 /* APContact+EasyMapping.m in Sources */,
+				4DB4AD951BF4D2A500582736 /* APContact+EasyMapping.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
