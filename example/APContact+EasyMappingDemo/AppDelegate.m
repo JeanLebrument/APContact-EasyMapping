@@ -19,7 +19,11 @@
   addressBook.fieldsMask = APContactFieldAll;
   
   [addressBook loadContacts:^(NSArray<APContact *> * _Nullable contacts, NSError * _Nullable error) {
-    NSArray *serializedContacts = [EKSerializer serializeCollection:contacts withMapping:[APContact objectMapping]];
+    NSMutableArray *serializedContacts = [NSMutableArray array];
+    
+    for (APContact *contact in contacts) {
+      [serializedContacts addObject:[contact serializeToDictionary]];
+    }
     
     for (NSDictionary *serializedContact in serializedContacts) {
       NSLog(@"serializedContact: %@", serializedContact);

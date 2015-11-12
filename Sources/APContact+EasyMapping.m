@@ -31,6 +31,10 @@
   }];
 }
 
+- (NSDictionary *)serializeToDictionary {
+  return [EKSerializer serializeObject:self withMapping:[APContact objectMapping]];
+}
+
 @end
 
 @implementation APName (APContact_EasyMapping)

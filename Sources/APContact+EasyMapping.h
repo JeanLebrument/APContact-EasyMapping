@@ -13,6 +13,8 @@
 
 @interface APContact (APContact_EasyMapping) <EKMappingProtocol>
 
+- (NSDictionary *)serializeToDictionary;
+
 @end
 
 @interface APName (APContact_EasyMapping) <EKMappingProtocol>
