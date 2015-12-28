@@ -110,10 +110,7 @@
     } reverseBlock:^id(id value) {
       return [socialNetworkTypes allKeysForObject:value].lastObject;
     }];
-    [mapping mapPropertiesFromArray:@[@"username", @"userIdentifier"]];
-    [mapping mapKeyPath:@"url" toProperty:@"url"
-         withValueBlock:[EKMappingBlocks urlMappingBlock]
-           reverseBlock:[EKMappingBlocks urlReverseMappingBlock]];
+    [mapping mapPropertiesFromArray:@[@"username", @"userIdentifier", @"url"]];
   }];
 }
 
